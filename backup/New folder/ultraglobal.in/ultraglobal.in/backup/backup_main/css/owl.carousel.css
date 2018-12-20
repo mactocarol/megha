@@ -1,0 +1,110 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.bx-wrapper .bx-pager {
+    bottom:-95px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border:solid #ccc 1px;
+    display:block;
+    margin:0 5px;
+    padding:3px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border:solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom:120px;
+  }
+  
+  
+  
+  
+  
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+/* display none until init */
+.owl-carousel{
+	display:none;
+	position:relative;
+	width:100%;
+	-ms-touch-action:pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display:none;
+	position:relative;
+	-webkit-transform:translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition:height 500ms ease-in-out;
+	-moz-transition:height 500ms ease-in-out;
+	-ms-transition:height 500ms ease-in-out;
+	-o-transition:height 500ms ease-in-out;
+	transition:height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float:left;
+}
+/*.owl-carousel .owl-item h2{
+	font-size:16px; text-transform:uppercase;
+}
+.owl-carousel .owl-item p{
+	font-size:14px;
+}*/
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor:pointer;
+}
+.owl-controls {
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(/web/20160315082902im_/http://indotrade.co.in/css/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+/*
+     FILE ARCHIVED ON 08:29:02 Mar 15, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:28:36 Jan 01, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
