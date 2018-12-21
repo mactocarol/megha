@@ -1,3 +1,0 @@
-indotrade@mintok.com
-FTP server: ftp.mactosys.com
-FTP & explicit FTPS port:  21   password: indotrade@123
